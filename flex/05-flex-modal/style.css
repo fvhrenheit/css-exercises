@@ -9,17 +9,45 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
+
 
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+}
+
+.text{
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.icont{
+  margin: 16px;
+}
+
+.cont{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
+
+.headercont{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.header{
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .icon {
@@ -67,3 +95,4 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
